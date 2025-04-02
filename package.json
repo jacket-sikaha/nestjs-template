@@ -30,7 +30,7 @@
     "@nestjs/devtools-integration": "^0.2.0",
     "@nestjs/platform-express": "^11.0.12",
     "@nestjs/schedule": "^5.0.1",
-    "cron": "^4.1.3",
+    "cron": "^3.x.x"，
     "dayjs": "^1.11.13",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",

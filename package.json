@@ -21,7 +21,8 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "module": "npx @nestjs/cli@latest g module",
     "controller": "npx @nestjs/cli@latest g controller",
-    "service": "npx @nestjs/cli@latest g service"
+    "service": "npx @nestjs/cli@latest g service",
+    "gen": "node generate.js"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.12",
@@ -30,7 +31,7 @@
     "@nestjs/devtools-integration": "^0.2.0",
     "@nestjs/platform-express": "^11.0.12",
     "@nestjs/schedule": "^5.0.1",
-    "cron": "^3.x.x"，
+    "cron": "^3.x.x",
     "dayjs": "^1.11.13",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
